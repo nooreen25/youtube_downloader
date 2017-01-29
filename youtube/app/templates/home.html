@@ -1,0 +1,19 @@
+
+<html>
+<head>
+<title>
+	Video Downloader
+</title>
+	<meta charset="UTF-8"> 
+	<!--<meta name="csrf-token" content="{% csrf_token %}" />-->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+	<script src="static/js/script.js"></script>
+</head>
+<body>
+<form action='/download' method='post'>
+Enter link:<input type="text" name="link" placeholder="Enter URL" class="link"><br />
+<input id="download" type="submit" value="Submit" >
+</form>
+</body>
+</html>
